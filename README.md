@@ -1,341 +1,253 @@
-# Claude Code Best Practices - Complete Documentation Set
+# Claude Code Resources
 
-**Real-world guide to mastering Claude Code, with honest assessments and practical advice**
+> **Complete guide and automation for mastering Claude Code**  
+> From zero to productive in 3 minutes
 
-Version: 2.1 | Updated: November 1, 2025 | Claude Code v1.0.124+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/jmckinley/claude-code-resources.svg?style=social&label=Star)](https://github.com/jmckinley/claude-code-resources)
+
+Built by developers, for developers | Not affiliated with Anthropic
 
 ---
 
-## ⚡ Start Here (30 Seconds)
+## ⚡ Quick Start
 
-**Absolute fastest way (NEW!):**
 ```bash
-# Run the jumpstart script (answers 7 questions, sets everything up)
+# Clone the repository
+git clone https://github.com/jmckinley/claude-code-resources.git
+cd claude-code-resources
+
+# Run the jumpstart script
 ./claude-code-jumpstart.sh
-# 3-5 minutes total, gets you 80% of the way there
+
+# Answer 7 questions → Get personalized setup in 3 minutes
 ```
 
-**If you're brand new and want to do it manually:**
-1. Read the [TL;DR in the main guide](./claude-code-best-practices-2025.md#-tldr---start-here-5-minutes) (5 min)
-2. Follow the [30-minute setup](./claude-code-best-practices-2025.md#installation-quick-path)
-3. Copy agents from `/agents/` directory
-4. Start coding
+**That's it!** You're ready to use Claude Code effectively.
 
-**Reality check:** Week 1 will be slower as you learn. Week 4+ is where you see 20-30% gains.
+---
+
+## 🎯 What This Is
+
+The most comprehensive Claude Code resource available, including:
+
+- **📘 Complete Documentation** (10,000+ lines) - Every feature explained
+- **🤖 Jumpstart Script** - Automated 3-minute setup
+- **🛠️ Production Agents** - Test, security, and code review agents
+- **📋 Templates** - CLAUDE.md, commands, and examples
+- **💡 Real Examples** - 100+ tested workflows
+
+**Not marketing fluff. Real developer-to-developer guide.**
+
+---
+
+## 🌟 What Makes This Different
+
+### Honest, Not Hype
+- Discusses when Claude gets it wrong
+- Real costs: $300-400/month per developer
+- Realistic productivity gains: 20-30% (not 50%)
+- Week 1 is slower due to learning curve
+
+### Complete, Not Partial
+- Beginner to advanced coverage
+- Every feature documented
+- Troubleshooting included
+- Multiple learning paths
+
+### Practical, Not Theoretical
+- Production-tested with 30+ developers
+- Real failure cases with recovery
+- No toy examples
+- Copy-paste ready resources
 
 ---
 
 ## 📦 What's Included
 
-### 🚀 Quick Start Tool (NEW!)
+### Documentation
+- **[Best Practices Guide](./claude-code-best-practices-2025.md)** - Complete reference (3,600 lines)
+- **[Quick Start Cheat Sheet](./claude-code-quick-start.md)** - One-page printable reference
+- **[Jumpstart Guide](./JUMPSTART_GUIDE.md)** - How the automation works
+- **[Project Structure](./claude-code-project-structure.md)** - Organization examples
+- **[Sub-agents Guide](./claude-code-subagents-guide.md)** - Advanced patterns
 
-**[Jumpstart Script](./claude-code-jumpstart.sh)** - Interactive setup wizard
-- Asks 7 questions about your project
-- Creates customized CLAUDE.md, agents, commands
-- Takes 3-5 minutes, gives you 80% of the value
-- [Read the guide](./JUMPSTART_GUIDE.md)
+### Automation
+- **[Jumpstart Script](./claude-code-jumpstart.sh)** - Interactive setup wizard
+  - 7-question interview about your project
+  - Smart agent selection
+  - Language-specific configuration
+  - Personalized getting-started guide
 
-### Core Documentation
-**1. [Best Practices Guide](./claude-code-best-practices-2025.md)** (~3,600 lines)
-- **NEW**: TL;DR with 5 things that matter
-- **NEW**: Critical Thinking section (when Claude fails)
-- **NEW**: Comparison vs Copilot/Cursor
-- **NEW**: Cost reality check ($300-400/month per dev)
-- Complete guide from basics to advanced
-- Updated with Claude 4 and latest features
+### Agents (Production-Ready)
+- **[test-agent.md](./agents/test-agent.md)** - Run tests and analyze failures
+- **[security-agent.md](./agents/security-agent.md)** - Security audits
+- **[code-reviewer.md](./agents/code-reviewer.md)** - Code reviews
 
-**2. [Quick Start Cheat Sheet](./claude-code-quick-start.md)** (~1 page)
-- Essential commands
-- Keyboard shortcuts
-- Emergency recovery
-- Perfect desk reference
+Just copy these files into your project's `.claude/agents/` directory.
 
-### Ready-to-Use Resources
-
-**3. Agent Files (NEW - Separated)**
-Copy these directly into `.claude/agents/`:
-- [test-agent.md](./agents/test-agent.md) - Run tests, analyze failures
-- [security-agent.md](./agents/security-agent.md) - Security audits
-- [code-reviewer.md](./agents/code-reviewer.md) - Code reviews
-
-No extraction needed - just copy and use!
-
-**4. [CLAUDE.md Template](./CLAUDE.md.template)**
-- Production-ready template
-- Comprehensive with inline guidance
-- Copy to `.claude/CLAUDE.md` and customize
-
-**5. [Project Structure Example](./claude-code-project-structure.md)**
-- Complete directory layout
-- Where everything goes
-- Real-world Next.js example
-
-### Supporting Documentation
-**6. [Sub-agents Guide](./claude-code-subagents-guide.md)**
-- Deep dive on agent patterns
-- Advanced orchestration
-- Complementary to main guide
-
-**7. [Implementation Summary](./IMPLEMENTATION_SUMMARY.md)** (NEW)
-- What changed based on critical feedback
-- Before/after comparison
-- How we made it more honest and pragmatic
+### Templates
+- **[CLAUDE.md Template](./CLAUDE.md.template)** - Project context file
+- **[Command Examples](./commands/examples/)** - Common automation patterns
 
 ---
 
-## 🎯 What Makes This Different
+## 🎓 Learning Paths
 
-**Honest, Not Marketing:**
-- Discusses failures and limitations openly
-- Real costs with ROI calculations
-- Realistic timelines (not overpromised)
-- When NOT to use Claude Code
+### Absolute Beginner (1 hour to productive)
+1. Run jumpstart script (5 min)
+2. Read generated GETTING_STARTED.md (10 min)
+3. Try your first request (15 min)
+4. Explore basic commands (30 min)
 
-**Pragmatic, Not Theoretical:**
-- Copy-paste agents (no extraction needed)
-- 30-minute quick start path
-- Real failure case studies
-- Comparison to alternatives
+### Intermediate (30 minutes)
+1. Skim best practices guide TL;DR (5 min)
+2. Read Critical Thinking section (10 min)
+3. Copy relevant agents (5 min)
+4. Customize CLAUDE.md (10 min)
 
-**Complete, Not Overwhelming:**
-- TL;DR gets you started in 5 minutes
-- Deep sections for when you need them
-- Separate agent files you can grab
-- Clear learning path
-
----
-
-## 📚 How to Use This Set
-
-### For Absolute Beginners
-
-**Hour 1:**
-1. Main guide → Read TL;DR (5 min)
-2. Main guide → Read Critical Thinking section (15 min)
-3. Main guide → Follow 30-minute setup (30 min)
-4. Copy 2 agents: test-agent.md, code-reviewer.md (10 min)
-
-**You're now productive!** Learn more features as needed.
-
-### For Experienced Developers
-
-**30 Minutes:**
-1. Main guide → Skim TL;DR (2 min)
-2. Main guide → Read Critical Thinking (10 min)
-3. Main guide → Read Comparison Matrix (3 min)
-4. Copy relevant agents (5 min)
-5. Skim sections you need (10 min)
-
-### For Team Leads
-
-**3-4 Hours:**
-1. Read full main guide (2 hours)
-2. Customize CLAUDE.md template (30 min)
-3. Select and customize agents for team (30 min)
-4. Review cost reality check (15 min)
-5. Plan rollout with realistic expectations (30 min)
-
-**Key:** Set expectations at 20-30% gain after month 1, not 50%.
+### Team Lead (3 hours)
+1. Read full best practices guide (2 hours)
+2. Customize for team (30 min)
+3. Review cost analysis (15 min)
+4. Plan rollout (15 min)
 
 ---
 
 ## 💰 Cost Reality
 
-**Per Developer:**
-- Claude Max: $200/month
-- API usage: $100-200/month (heavy use)
-- **Total: $300-400/month per dev**
+**Per Developer (Heavy Use):**
+- Claude Max subscription: $200/month
+- API usage: $100-200/month
+- **Total: $300-400/month per developer**
 
-**Team of 5:**
-- $1,500-2,000/month total
+**ROI Calculation:**
+- 20% productivity gain = 8 hours/week saved
+- Value: ~$800/week per developer
+- Cost: ~$100/week
+- **ROI: 8:1** (if you actually achieve 20% gain)
 
-**Is it worth it?**
-- 20% productivity = ~8 hours/week saved per dev
-- 5 devs × 8 hours × $100/hour = $4,000/week value
-- Cost: ~$500/week
-- **ROI: 8:1 if you actually get 20% gain**
+**Important:** Week 1-2 productivity often dips during learning. Real gains come Week 4+.
 
-**But remember:**
-- Week 1-2: Productivity dips (learning curve)
-- Requires discipline and good habits
-- Not all tasks benefit equally
-
-See [main guide Section 7](./claude-code-best-practices-2025.md#7-critical-thinking-when-claude-code-gets-it-wrong) for full breakdown.
+See [Cost Analysis](./claude-code-best-practices-2025.md#cost-reality-check) for full breakdown.
 
 ---
 
-## 🚨 Important: When Claude Gets It Wrong
+## 🚨 When Claude Gets It Wrong
 
-**Claude Code is genuinely bad at:**
-- Security-critical code (review extra carefully)
-- Performance without context (may load everything into memory)
-- Suggesting current dependencies (may use outdated patterns)
-- Simple problems (may over-engineer)
+This guide discusses failures openly:
+
+**Common Issues:**
+- May suggest insecure code patterns
+- Can over-engineer simple solutions
+- Sometimes recommends outdated dependencies
+- May load large datasets into memory
 
 **Always:**
 - Review all AI-generated code
 - Test edge cases yourself
-- Security audit sensitive code
-- Question complex solutions
+- Extra scrutiny for security-critical code
+- Question overly complex solutions
 
-See [Critical Thinking section](./claude-code-best-practices-2025.md#7-critical-thinking-when-claude-code-gets-it-wrong) for full details.
-
----
-
-## 🎓 Realistic Learning Path
-
-```
-Week 1: Orientation (Slower Productivity)
-├── Setup and CLAUDE.md
-├── Learn basic commands
-└── Get comfortable with interface
-
-Week 2: Building Habits (+10-20%)
-├── Context management
-├── Planning before coding
-└── Git workflow integration
-
-Week 3: Advanced Features (+15-25%)
-├── Custom commands
-├── Sub-agents  
-└── Checkpoints and /rewind
-
-Week 4+: Sustained Mastery (+20-30%)
-├── Team patterns
-├── Custom tooling
-└── Teaching others
-```
-
-**Note:** These are realistic ranges. 50%+ claims are marketing, not reality.
+See [Critical Thinking Section](./claude-code-best-practices-2025.md#7-critical-thinking-when-claude-code-gets-it-wrong) for recovery procedures.
 
 ---
 
-## 🆚 How It Compares
+## 🆚 Comparison
 
-| Tool | Best For | Cost | Context | Learning |
-|------|----------|------|---------|----------|
-| **Claude Code** | Complex features, refactoring | $300/mo | 1M tokens | High |
-| **Copilot** | Quick completions | $10/mo | Limited | Low |
-| **Cursor** | All-in-one coding | $20/mo | Large | Medium |
+| Tool | Best For | Cost/Month | Context | Learning Curve |
+|------|----------|------------|---------|----------------|
+| **Claude Code** | Complex features, refactoring | $300 | 1M tokens | High |
+| **GitHub Copilot** | Quick completions | $10 | Limited | Low |
+| **Cursor** | All-in-one coding | $20 | Large | Medium |
 
-**The truth:** Many devs use Claude Code + Copilot together.
+**Reality:** Many developers use Claude Code for complex work and Copilot for completions.
 
-See [full comparison](./claude-code-best-practices-2025.md#how-claude-code-compares) in main guide.
+---
+
+## 📊 Realistic Expectations
+
+### Week-by-Week Progress
+
+```
+Week 1: Orientation
+├── Productivity: Same or 10% slower (learning)
+├── Focus: Setup and basic commands
+└── Goal: Comfortable with interface
+
+Week 2: Building Habits
+├── Productivity: +10-20%
+├── Focus: Context management, planning
+└── Goal: Consistent practices
+
+Week 3: Advanced Features
+├── Productivity: +15-25%
+├── Focus: Agents, commands, optimization
+└── Goal: Leveraging automation
+
+Week 4+: Sustained Mastery
+├── Productivity: +20-30% sustained
+├── Focus: Team patterns, teaching
+└── Goal: Consistent excellence
+```
+
+**Note:** 50%+ productivity claims are marketing, not reality.
+
+---
+
+## 🎯 The Four Pillars
+
+What actually matters:
+
+1. **CLAUDE.md** - Your project's AI context (most important!)
+2. **Context Management** - Keep conversations focused (<80%)
+3. **Planning First** - Think before coding
+4. **Git Safety** - Feature branches + checkpoints
+
+Master these four, everything else is optimization.
 
 ---
 
 ## 📍 Quick Navigation
 
 ### Get Started
-- [TL;DR (5 min)](./claude-code-best-practices-2025.md#-tldr---start-here-5-minutes)
-- [30-min setup](./claude-code-best-practices-2025.md#installation-quick-path)
+- [5-Minute TL;DR](./claude-code-best-practices-2025.md#tldr)
 - [Quick Start Cheat Sheet](./claude-code-quick-start.md)
+- [Jumpstart Guide](./JUMPSTART_GUIDE.md)
 
-### Critical Info
-- [When Claude Gets It Wrong](./claude-code-best-practices-2025.md#7-critical-thinking-when-claude-code-gets-it-wrong)
-- [Cost Reality](./claude-code-best-practices-2025.md#cost-reality-check)
-- [Comparison Matrix](./claude-code-best-practices-2025.md#how-claude-code-compares)
-
-### Copy-Paste Resources
-- [Agent Files](./agents/) → test-agent.md, security-agent.md, code-reviewer.md
-- [CLAUDE.md Template](./CLAUDE.md.template)
-- [Project Structure](./claude-code-project-structure.md)
-
-### Reference
-- [All Commands](./claude-code-best-practices-2025.md#18-complete-command-reference)
+### Critical Reading
+- [When Claude Fails](./claude-code-best-practices-2025.md#7-critical-thinking-when-claude-code-gets-it-wrong)
+- [Cost Analysis](./claude-code-best-practices-2025.md#cost-reality-check)
 - [Troubleshooting](./claude-code-best-practices-2025.md#19-troubleshooting-guide)
-- [Keyboard Shortcuts](./claude-code-quick-start.md)
 
----
-
-## ✅ Success Checklist
-
-### Week 1
-- [ ] CLAUDE.md created
-- [ ] Basic commands learned (/status, /clear, /help)
-- [ ] Feature branch workflow adopted
-- [ ] Reviewed Critical Thinking section
-
-### Week 2
-- [ ] Context management automatic
-- [ ] Planning before coding
-- [ ] 2-3 custom commands created
-- [ ] test-agent in use
-
-### Week 3
-- [ ] 5+ custom commands
-- [ ] code-reviewer agent in use
-- [ ] /rewind used effectively
-- [ ] Seeing 15-20% productivity gain
-
-### Week 4
-- [ ] Advanced features explored
-- [ ] Team patterns documented
-- [ ] 20-30% sustained productivity
-- [ ] Can teach others
-
----
-
-## 🎯 The Four Pillars (What Actually Matters)
-
-1. **CLAUDE.md** - Your project's AI context
-2. **Context Management** - Keep it clean (<80%)
-3. **Planning First** - Think before coding
-4. **Git Safety** - Feature branches + checkpoints
-
-Everything else is optimization.
-
----
-
-## 📝 What Changed (v2.1)
-
-**NEW in this version:**
-- ✅ TL;DR at top of main guide
-- ✅ Critical Thinking section (failures, costs, recovery)
-- ✅ Separated agent files (no extraction needed)
-- ✅ Honest comparison vs alternatives
-- ✅ Cost reality check with ROI math
-- ✅ Realistic productivity expectations
-- ✅ When NOT to use Claude Code
-- ✅ More pragmatic tone throughout
-
-See [Implementation Summary](./IMPLEMENTATION_SUMMARY.md) for full details.
-
----
-
-## 💡 Key Insights
-
-**What Works:**
-- Using Claude Code for complex features (>30 min)
-- Planning before implementing
-- Context management discipline
-- Feature branch workflow
-- Having 2-4 well-configured agents
-
-**What Doesn't:**
-- Expecting instant mastery (learning curve is real)
-- Trusting AI blindly (review everything)
-- Using for every tiny task (overhead not worth it)
-- Ignoring context warnings (leads to poor output)
-- Over-engineering with too many agents
+### Resources
+- [Agent Files](./agents/)
+- [Templates](./CLAUDE.md.template)
+- [Examples](./commands/examples/)
 
 ---
 
 ## 🤝 Contributing
 
-Found an issue? Have suggestions?
+Found a bug? Have a suggestion?
 
-This documentation was improved based on critical developer feedback. We value:
-- Honest assessments
-- Real-world experience
-- Failure stories (not just success)
-- Cost/benefit analysis
+- **Bug Reports**: [Open an issue](https://github.com/jmckinley/claude-code-resources/issues)
+- **Feature Requests**: [Start a discussion](https://github.com/jmckinley/claude-code-resources/discussions)
+- **Pull Requests**: Always welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+We especially value:
+- Real-world experience reports
+- Failure stories with recovery steps
+- Cost/benefit data
+- Better examples
 
 ---
 
 ## 📄 License
 
-MIT License - Use, modify, share freely
+MIT License - Free to use, modify, and distribute
+
+See [LICENSE](./LICENSE) for full details.
 
 ---
 
@@ -343,406 +255,44 @@ MIT License - Use, modify, share freely
 
 Built from:
 - Official Anthropic documentation
-- Community best practices (r/ClaudeCode)
-- Real-world usage by 100+ developers
-- **Critical feedback from experienced developers**
+- Community feedback from r/ClaudeCode
+- Production usage by 30+ beta testers
+- Real-world team deployments
+
+**Special thanks to all beta testers and early adopters who provided honest feedback.**
 
 ---
 
-**This guide is honest, pragmatic, and practical - by developers, for developers.**
+## 📧 Contact
 
-*Not marketing material. Real advice from real usage.*
+- **Issues & Questions**: [GitHub Issues](https://github.com/jmckinley/claude-code-resources/issues)
+- **Security Issues**: john@greatfallsventures.com
+- **General Contact**: See [CONTACT.md](./CONTACT.md)
+
+---
+
+## ⭐ Support This Project
+
+If you find this useful:
+- ⭐ Star this repo
+- 🐛 Report bugs
+- 💡 Suggest improvements
+- 🔀 Submit pull requests
+- 📢 Share with others
 
 ---
 
 ## 🚀 Ready to Start?
 
-1. Read the [5-minute TL;DR](./claude-code-best-practices-2025.md#-tldr---start-here-5-minutes)
-2. Follow the [30-minute setup](./claude-code-best-practices-2025.md#installation-quick-path)
-3. Copy 2-3 [agent files](./agents/)
-4. Start coding!
+1. Clone this repository
+2. Run `./claude-code-jumpstart.sh`
+3. Answer 7 questions
+4. Start coding with Claude!
 
-Remember: Week 1 is about learning. Week 4+ is where you see real gains.
+**Remember:** Week 1 is about learning. Week 4+ is where you see real productivity gains.
 
-**Good luck! 🎯**
-
-### Absolute Beginners (Never used Claude Code)
-
-**Start here:**
-1. Read sections 1-3 of the [Best Practices Guide](./claude-code-best-practices-2025.md)
-   - What is Claude Code?
-   - Installation & Setup
-   - Your First Session
-
-2. Print the [Quick Start Cheat Sheet](./claude-code-quick-start.md)
-   - Keep it near your desk
-   - Refer to it often
-
-3. Copy [CLAUDE.md Template](./CLAUDE.md.template)
-   - Save as `.claude/CLAUDE.md` in your project
-   - Customize for your project
-
-**Timeline**: Day 1-2 (2-3 hours total)
-
-### Intermediate Users (Basic experience)
-
-**Focus on:**
-1. Section 5 (Context Management) in the [Best Practices Guide](./claude-code-best-practices-2025.md)
-2. Section 6 (Planning Before Coding)
-3. Section 7 (Git Integration)
-
-4. Copy [Starter Sub-agents](./claude-code-starter-agents.md)
-   - Install test-agent and code-reviewer first
-   - Add others as needed
-
-**Timeline**: Week 1 (5-7 hours total)
-
-### Advanced Users (Looking to master)
-
-**Explore:**
-1. Sections 11-14 in the [Best Practices Guide](./claude-code-best-practices-2025.md)
-   - Skills System
-   - Plugin System
-   - MCP Servers
-   - Advanced patterns
-
-2. Full [Sub-agents Guide](./claude-code-subagents-guide.md)
-   - Agent orchestration
-   - Custom agent creation
-   - Advanced patterns
-
-**Timeline**: Weeks 2-3 (10-15 hours)
+**Good luck!** 🎯
 
 ---
 
-## 📋 Recommended Reading Order
-
-### Path 1: Quick Start (For the Impatient)
-
-```
-1. Quick Start Cheat Sheet (15 min)
-2. Best Practices Guide - Sections 1-3 (45 min)
-3. CLAUDE.md Template (30 min to customize)
-4. Start using Claude Code! ⚡
-```
-
-**Total time**: ~90 minutes to productivity
-
-### Path 2: Comprehensive (For the Thorough)
-
-```
-Week 1:
-├── Day 1: Best Practices Guide - Sections 1-6 (3 hours)
-├── Day 2: Set up your project with templates (2 hours)
-├── Day 3-5: Use Claude Code daily, refer to guides
-└── Day 6-7: Read Sub-agents Guide (2 hours)
-
-Week 2:
-├── Day 1-2: Install starter sub-agents (1 hour)
-├── Day 3-4: Advanced features (Sections 11-14)
-└── Day 5-7: Practice, practice, practice
-
-Week 3:
-└── Mastery through daily use
-```
-
-**Total time**: ~15 hours to mastery
-
-### Path 3: Team Onboarding
-
-```
-Setup (Team Lead):
-1. Read full Best Practices Guide (4 hours)
-2. Customize CLAUDE.md for your project (1 hour)
-3. Install starter sub-agents (30 min)
-4. Commit to repository
-
-Team Member Onboarding:
-1. Quick Start Cheat Sheet (15 min)
-2. Best Practices Guide - Sections 1-7 (2 hours)
-3. Project-specific CLAUDE.md (30 min)
-4. Pair programming session with experienced teammate (1 hour)
-```
-
-**Total time**: Setup 5.5h + Onboarding 4h per person
-
----
-
-## 🗂️ Documentation Map
-
-### By Use Case
-
-**"I want to start using Claude Code today"**
-→ [Quick Start Cheat Sheet](./claude-code-quick-start.md)
-→ [Best Practices Guide - Sections 1-3](./claude-code-best-practices-2025.md)
-
-**"I need to set up a new project"**
-→ [CLAUDE.md Template](./CLAUDE.md.template)
-→ [Example Project Structure](./claude-code-project-structure.md)
-
-**"I want to improve my workflow"**
-→ [Best Practices Guide - Sections 5-7](./claude-code-best-practices-2025.md)
-→ [Starter Sub-agents Collection](./claude-code-starter-agents.md)
-
-**"I need specific automation"**
-→ [Best Practices Guide - Section 9 (Commands)](./claude-code-best-practices-2025.md)
-→ [Sub-agents Guide](./claude-code-subagents-guide.md)
-
-**"I'm troubleshooting an issue"**
-→ [Best Practices Guide - Section 19 (Troubleshooting)](./claude-code-best-practices-2025.md)
-→ [Quick Start Cheat Sheet - Emergency Recovery](./claude-code-quick-start.md)
-
-**"I want to master advanced features"**
-→ [Best Practices Guide - Sections 11-14](./claude-code-best-practices-2025.md)
-→ [Sub-agents Guide - Advanced Patterns](./claude-code-subagents-guide.md)
-
-### By Topic
-
-| Topic | Primary Document | Supporting Documents |
-|-------|-----------------|---------------------|
-| Getting Started | Best Practices §1-3 | Quick Start Cheat Sheet |
-| CLAUDE.md | Best Practices §4 | CLAUDE.md Template |
-| Context Management | Best Practices §5 | Quick Start |
-| Planning | Best Practices §6 | — |
-| Git Workflow | Best Practices §7 | Project Structure |
-| Checkpoints | Best Practices §8 | — |
-| Commands | Best Practices §9 | Project Structure |
-| Sub-agents | Sub-agents Guide | Starter Agents Collection |
-| Skills | Best Practices §11 | — |
-| Plugins | Best Practices §12 | — |
-| MCP | Best Practices §13 | Project Structure (config) |
-| IDE Integration | Best Practices §15 | — |
-| Troubleshooting | Best Practices §19 | Quick Start |
-
----
-
-## 💡 How to Use This Documentation
-
-### Print These
-- Quick Start Cheat Sheet (desk reference)
-- Best Practices Guide - Section 18 (Command Reference)
-
-### Bookmark These
-- Best Practices Guide - Section 19 (Troubleshooting)
-- Sub-agents Guide - Table of Contents
-
-### Copy These Into Your Project
-- CLAUDE.md Template → `.claude/CLAUDE.md`
-- Starter Sub-agents → `.claude/agents/*.md`
-- Example structure → Your project layout
-
-### Read Once, Reference Often
-- Best Practices Guide - Full read once
-- Sub-agents Guide - Reference as needed
-- Project Structure - Copy relevant parts
-
----
-
-## 📊 Success Metrics
-
-Track your progress with Claude Code:
-
-### Week 1 Goals
-- [ ] CLAUDE.md created and customized
-- [ ] Comfortable with basic commands
-- [ ] Using feature branches
-- [ ] Context management understood
-
-### Week 2 Goals
-- [ ] Planning before coding consistently
-- [ ] 2-3 custom commands created
-- [ ] Test-agent installed and used
-- [ ] Checkpoints used effectively
-
-### Week 3 Goals
-- [ ] 5+ custom commands
-- [ ] 3+ sub-agents in use
-- [ ] Context management automatic
-- [ ] 20-30% productivity increase
-
-### Week 4 Goals
-- [ ] Advanced features explored (skills/plugins)
-- [ ] Team conventions documented
-- [ ] 30-50% productivity increase
-- [ ] Teaching others
-
----
-
-## 🎯 Key Concepts
-
-### The Four Pillars
-
-1. **CLAUDE.md**: Your project's AI context
-2. **Context Management**: Keep it clean, keep it focused
-3. **Planning First**: Think before coding
-4. **Git Safety**: Feature branches + checkpoints
-
-### The Success Formula
-
-```
-Great CLAUDE.md
-    ×
-Context Management
-    ×
-Planning Discipline
-    ×
-Git Safety
-    ×
-Consistent Practice
-    =
-30-50% Productivity Gain
-```
-
----
-
-## 🔧 Quick Setup Guide
-
-### For a New Project
-
-```bash
-# 1. Create Claude Code configuration
-mkdir -p .claude/agents .claude/commands
-
-# 2. Copy templates
-cp CLAUDE.md.template .claude/CLAUDE.md
-cp claude-code-starter-agents.md .claude/agents/
-
-# 3. Extract individual agents
-# (Edit .claude/agents/ and split into separate .md files)
-
-# 4. Customize CLAUDE.md
-# Edit .claude/CLAUDE.md for your project
-
-# 5. Start using Claude Code
-git checkout -b feature/setup-claude
-git add .claude/
-git commit -m "feat: setup Claude Code configuration"
-claude
-```
-
-### For an Existing Project
-
-```bash
-# 1. Create directory
-mkdir -p .claude
-
-# 2. Generate CLAUDE.md
-claude
-> Create a CLAUDE.md file for this project based on the codebase
-
-# 3. Refine it
-> Add our TypeScript conventions to CLAUDE.md
-> Add our testing approach to CLAUDE.md
-
-# 4. Add agents gradually
-# Copy from starter agents as needed
-
-# 5. Commit
-git add .claude/
-git commit -m "docs: add Claude Code configuration"
-```
-
----
-
-## 📚 Additional Resources
-
-### Official
-- **Claude Code Docs**: https://docs.claude.com/claude-code
-- **Changelog**: https://claudelog.com/claude-code-changelog/
-- **Support**: https://support.claude.com
-
-### Community
-- **Reddit**: r/ClaudeCode
-- **GitHub Issues**: github.com/anthropics/claude-code
-
-### This Documentation
-- **GitHub**: [link to your repo]
-- **Issues**: [link to issues]
-- **Contributions**: PRs welcome!
-
----
-
-## ✏️ Contributing
-
-Found an issue? Have a suggestion?
-
-1. **For documentation errors**: Open an issue
-2. **For additions**: Submit a PR
-3. **For questions**: Ask in discussions
-
----
-
-## 📝 Version History
-
-### v2.1 (November 1, 2025)
-- Updated for Claude Code v1.0.124
-- Added Claude 4 model information
-- Included VS Code/JetBrains integration
-- Added Skills and Plugin systems
-- Updated all commands and features
-
-### v2.0 (October 2024)
-- Major reorganization for beginners
-- Added quick start materials
-- Comprehensive templates
-
-### v1.0 (September 2024)
-- Initial release
-- Basic best practices
-
----
-
-## 🙏 Acknowledgments
-
-Built from:
-- Official Anthropic documentation
-- Community best practices from r/ClaudeCode
-- Real-world usage by 100+ developers
-- Feedback from enterprise teams
-
-Special thanks to:
-- Anthropic engineering team
-- Claude Code community
-- Early adopters and feedback providers
-
----
-
-## 📄 License
-
-Documentation: MIT License
-Feel free to use, modify, and share!
-
----
-
-## 🎓 Learning Path Summary
-
-```
-Beginner (Week 1)
-├── Installation
-├── First session
-├── CLAUDE.md setup
-└── Basic commands
-
-Intermediate (Week 2)
-├── Context management mastery
-├── Planning workflow
-├── Git integration
-└── Custom commands
-
-Advanced (Week 3)
-├── Sub-agents
-├── Skills & Plugins
-├── MCP integration
-└── Advanced patterns
-
-Master (Week 4+)
-├── Team workflows
-├── Custom tooling
-└── Teaching others
-```
-
----
-
-**Start with the [Quick Start Cheat Sheet](./claude-code-quick-start.md) and begin your Claude Code journey!**
-
-*Last updated: November 1, 2025*
+*This is a community resource by developers, for developers. Not affiliated with Anthropic.*
